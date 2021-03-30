@@ -1,0 +1,1147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MudletPackage>
+<MudletPackage version="1.001">
+	<ScriptPackage>
+		<ScriptGroup isActive="yes" isFolder="yes">
+			<name>village buyers</name>
+			<packageName></packageName>
+			<script>-------------------------------------------------
+--         Put your Lua functions here.        --
+--                                             --
+-- Note that you can also use external scripts --
+-------------------------------------------------
+</script>
+			<eventHandlerList />
+			<Script isActive="yes" isFolder="no">
+				<name>village buyers</name>
+				<packageName></packageName>
+				<script>village_buyers = 
+{
+  {
+    location = "???*",
+    village = "rockholm",
+    name = "vagnar",
+    comm = "steel"
+  },
+  {
+    location = "3895",
+    village = "rockholm",
+    name = "toisil",
+    comm = "coal"
+  },
+  {
+    location = "3924",
+    village = "rockholm",
+    name = "fofur",
+    comm = "iron"
+  },
+  {
+    location = "3952",
+    village = "rockholm",
+    name = "glinus",
+    comm = "platinum"
+  },
+  {
+    location = "3945",
+    village = "rockholm",
+    name = "dali",
+    comm = "gold"
+  },
+  {
+    location = "3889",
+    village = "rockholm",
+    name = "orerl",
+    comm = "gems"
+  },
+  {
+    location = "3920",
+    village = "rockholm",
+    name = "meliwen",
+    comm = "silver"
+  },
+  {
+    location = "3921",
+    village = "rockholm",
+    name = "nonus",
+    comm = "marble"
+  },
+  {
+    location = "3888",
+    village = "rockholm",
+    name = "drulda",
+    comm = "leather"
+  },
+  {
+    location = "3887",
+    village = "rockholm",
+    name = "grianna",
+    comm = "meat"
+  },
+  {
+    location = "3887",
+    village = "rockholm",
+    name = "grianna",
+    comm = "poultry"
+  },
+  {
+    location = "3887",
+    village = "rockholm",
+    name = "grianna",
+    comm = "vegetable"
+  },
+  {
+    location = "3887",
+    village = "rockholm",
+    name = "grianna",
+    comm = "fruit"
+  },
+  {
+    location = "3887",
+    village = "rockholm",
+    name = "grianna",
+    comm = "grain"
+  },
+  {
+    location = "4025",
+    village = "southgard",
+    name = "sufer",
+    comm = "marble"
+  },
+  {
+    location = "4013",
+    village = "southgard",
+    name = "gemli",
+    comm = "silver"
+  },
+  {
+    location = "3959",
+    village = "southgard",
+    name = "laranga",
+    comm = "gems"
+  },
+  {
+    location = "3973",
+    village = "southgard",
+    name = "hasil",
+    comm = "gold"
+  },
+  {
+    location = "4015",
+    village = "southgard",
+    name = "famli",
+    comm = "platinum"
+  },
+  {
+    location = "3969*",
+    village = "southgard",
+    name = "gludda",
+    comm = "steel"
+  },
+  {
+    location = "4016",
+    village = "southgard",
+    name = "tywen",
+    comm = "coal"
+  },
+  {
+    location = "3963",
+    village = "southgard",
+    name = "doran",
+    comm = "meat"
+  },
+  {
+    location = "3963",
+    village = "southgard",
+    name = "doran",
+    comm = "poultry"
+  },
+  {
+    location = "3963",
+    village = "southgard",
+    name = "doran",
+    comm = "vegetable"
+  },
+  {
+    location = "3963",
+    village = "southgard",
+    name = "doran",
+    comm = "fruit"
+  },
+  {
+    location = "3963",
+    village = "southgard",
+    name = "doran",
+    comm = "grain"
+  },
+  {
+    location = "3965",
+    village = "southgard",
+    name = "gluglnus",
+    comm = "leather"
+  },
+  {
+    location = "3965",
+    village = "southgard",
+    name = "glugnus",
+    comm = "rope"
+  },
+  {
+    location = "3965",
+    village = "southgard",
+    name = "glugnus",
+    comm = "silk"
+  },
+  {
+    location = "4014",
+    village = "southgard",
+    name = "kegan",
+    comm = "iron"
+  },
+  {
+    location = "20397",
+    village = "ixthiaxa",
+    name = "iquaotmil",
+    comm = "rope"
+  },
+  {
+    location = "20397",
+    village = "ixthiaxa",
+    name = "iquaotmil",
+    comm = "gems"
+  },
+  {
+    location = "20395",
+    village = "ixthiaxa",
+    name = "rnigagghal",
+    comm = "meat"
+  },
+  {
+    location = "20397",
+    village = "ixthiaxa",
+    name = "iquaotmil",
+    comm = "silk"
+  },
+  {
+    location = "20395",
+    village = "ixthiaxa",
+    name = "rnigagghal",
+    comm = "fish"
+  },
+  {
+    location = "20417",
+    village = "ixthiaxa",
+    name = "atshagn",
+    comm = "steel"
+  },
+  {
+    location = "20428",
+    village = "ixthiaxa",
+    name = "llegau",
+    comm = "marble"
+  },
+  {
+    location = "20411",
+    village = "ixthiaxa",
+    name = "shatghal",
+    comm = "gold"
+  },
+  {
+    location = "20414",
+    village = "ixthiaxa",
+    name = "goakhud",
+    comm = "silver"
+  },
+  {
+    location = "20461",
+    village = "ixthiaxa",
+    name = "yudelog",
+    comm = "iron"
+  },
+  {
+    location = "20429",
+    village = "ixthiaxa",
+    name = "hotama",
+    comm = "coal"
+  },
+  {
+    location = "20472",
+    village = "ixthiaxa",
+    name = "kithosho",
+    comm = "platinum"
+  },
+  {
+    location = "4198",
+    village = "dairuchi",
+    name = "chixesaka",
+    comm = "wood"
+  },
+  {
+    location = "4198",
+    village = "dairuchi",
+    name = "chixesaka",
+    comm = "rope"
+  },
+  {
+    location = "4198",
+    village = "dairuchi",
+    name = "chixesaka",
+    comm = "coal"
+  },
+  {
+    location = "4184",
+    village = "dairuchi",
+    name = "xislia",
+    comm = "leather"
+  },
+  {
+    location = "4201",
+    village = "dairuchi",
+    name = "misinga",
+    comm = "gems"
+  },
+  {
+    location = "4280",
+    village = "dairuchi",
+    name = "shibuchi",
+    comm = "marble"
+  },
+  {
+    location = "4204",
+    village = "dairuchi",
+    name = "cheeabi",
+    comm = "meat"
+  },
+  {
+    location = "4204",
+    village = "dairuchi",
+    name = "cheeabi",
+    comm = "poultry"
+  },
+  {
+    location = "4204",
+    village = "dairuchi",
+    name = "cheeabi",
+    comm = "vegetable"
+  },
+  {
+    location = "4204",
+    village = "dairuchi",
+    name = "cheeabi",
+    comm = "fruit"
+  },
+  {
+    location = "4204",
+    village = "dairuchi",
+    name = "cheeabi",
+    comm = "grain"
+  },
+  {
+    location = "4208",
+    village = "dairuchi",
+    name = "tloxenga",
+    comm = "silk"
+  },
+  {
+    location = "4190",
+    village = "dairuchi",
+    name = "druchoro",
+    comm = "milk"
+  },
+  {
+    location = "3816",
+    village = "delport",
+    name = "beauregard",
+    comm = "wood"
+  },
+  {
+    location = "3824",
+    village = "delport",
+    name = "bedelia",
+    comm = "cloth"
+  },
+  {
+    location = "3830",
+    village = "delport",
+    name = "babette",
+    comm = "gold"
+  },
+  {
+    location = "3833",
+    village = "delport",
+    name = "phillipe",
+    comm = "rope"
+  },
+  {
+    location = "3827",
+    village = "delport",
+    name = "wallace",
+    comm = "meat"
+  },
+  {
+    location = "3827",
+    village = "delport",
+    name = "wallace",
+    comm = "poultry"
+  },
+  {
+    location = "3818",
+    village = "delport",
+    name = "percy",
+    comm = "milk"
+  },
+  {
+    location = "3826",
+    village = "delport",
+    name = "monique",
+    comm = "fish"
+  },
+  {
+    location = "3818",
+    village = "delport",
+    name = "percy",
+    comm = "eggs"
+  },
+  {
+    location = "3832",
+    village = "delport",
+    name = "jacques",
+    comm = "leather"
+  },
+  {
+    location = "3820",
+    village = "delport",
+    name = "geraldine",
+    comm = "grain"
+  },
+  {
+    location = "3820",
+    village = "delport",
+    name = "geraldine",
+    comm = "silk"
+  },
+  {
+    location = "3626",
+    village = "stewartsville",
+    name = "butch",
+    comm = "wood"
+  },
+  {
+    location = "3626",
+    village = "stewartsville",
+    name = "butch",
+    comm = "silk"
+  },
+  {
+    location = "3626",
+    village = "stewartsville",
+    name = "butch",
+    comm = "marble"
+  },
+  {
+    location = "3610",
+    village = "stewartsville",
+    name = "giles",
+    comm = "cloth"
+  },
+  {
+    location = "3681",
+    village = "stewartsville",
+    name = "jerry",
+    comm = "rope"
+  },
+  {
+    location = "3613",
+    village = "stewartsville",
+    name = "dirk",
+    comm = "meat"
+  },
+  {
+    location = "3609",
+    village = "stewartsville",
+    name = "nell",
+    comm = "milk"
+  },
+  {
+    location = "3613",
+    village = "stewartsville",
+    name = "dirk",
+    comm = "poultry"
+  },
+  {
+    location = "3617",
+    village = "stewartsville",
+    name = "duncan",
+    comm = "fish"
+  },
+  {
+    location = "3607",
+    village = "stewartsville",
+    name = "winnie",
+    comm = "eggs"
+  },
+  {
+    location = "3621",
+    village = "stewartsville",
+    name = "gretchen",
+    comm = "gems"
+  },
+  {
+    location = "3623",
+    village = "stewartsville",
+    name = "norton",
+    comm = "iron"
+  },
+  {
+    location = "3807",
+    village = "acknor",
+    name = "togmork",
+    comm = "wood"
+  },
+  {
+    location = "3772",
+    village = "acknor",
+    name = "chokaloba",
+    comm = "cloth"
+  },
+  {
+    location = "3772",
+    village = "acknor",
+    name = "chokaloba",
+    comm = "milk"
+  },
+  {
+    location = "3784",
+    village = "acknor",
+    name = "urghak",
+    comm = "grain"
+  },
+  {
+    location = "3787",
+    village = "acknor",
+    name = "krug",
+    comm = "meat"
+  },
+  {
+    location = "3787",
+    village = "acknor",
+    name = "krug",
+    comm = "poultry"
+  },
+  {
+    location = "3802",
+    village = "acknor",
+    name = "grokgar",
+    comm = "fruit"
+  },
+  {
+    location = "3758",
+    village = "acknor",
+    name = "skung",
+    comm = "vegetable"
+  },
+  {
+    location = "3772",
+    village = "acknor",
+    name = "chokaloba",
+    comm = "eggs"
+  },
+  {
+    location = "3788",
+    village = "acknor",
+    name = "blachoba",
+    comm = "leather"
+  },
+  {
+    location = "3792",
+    village = "acknor",
+    name = "slykok",
+    comm = "marble"
+  },
+  {
+    location = "3726",
+    village = "estelbar",
+    name = "sandy",
+    comm = "wood"
+  },
+  {
+    location = "3728",
+    village = "estelbar",
+    name = "teenie",
+    comm = "cloth"
+  },
+  {
+    location = "3723",
+    village = "estelbar",
+    name = "tomtom",
+    comm = "gems"
+  },
+  {
+    location = "3723",
+    village = "estelbar",
+    name = "tomtom",
+    comm = "platinum"
+  },
+  {
+    location = "3723",
+    village = "estelbar",
+    name = "tomtom",
+    comm = "gold"
+  },
+  {
+    location = "3723",
+    village = "estelbar",
+    name = "tomtom",
+    comm = "silver"
+  },
+  {
+    location = "3751",
+    village = "estelbar",
+    name = "delatini",
+    comm = "grain"
+  },
+  {
+    location = "3734",
+    village = "estelbar",
+    name = "deb",
+    comm = "milk"
+  },
+  {
+    location = "3699",
+    village = "estelbar",
+    name = "melbini",
+    comm = "fruit"
+  },
+  {
+    location = "3698",
+    village = "estelbar",
+    name = "hopliti",
+    comm = "vegetable"
+  },
+  {
+    location = "3732",
+    village = "estelbar",
+    name = "chik",
+    comm = "eggs"
+  },
+  {
+    location = "6970",
+    village = "paavik",
+    name = "uriach",
+    comm = "wood"
+  },
+  {
+    location = "6970",
+    village = "paavik",
+    name = "uriach",
+    comm = "iron"
+  },
+  {
+    location = "6970",
+    village = "paavik",
+    name = "uriach",
+    comm = "coal"
+  },
+  {
+    location = "6937",
+    village = "paavik",
+    name = "anya",
+    comm = "leather"
+  },
+  {
+    location = "6957",
+    village = "paavik",
+    name = "ivanch",
+    comm = "cloth"
+  },
+  {
+    location = "6935",
+    village = "paavik",
+    name = "andrei",
+    comm = "gems"
+  },
+  {
+    location = "6972",
+    village = "paavik",
+    name = "varkasha",
+    comm = "meat"
+  },
+  {
+    location = "6943",
+    village = "paavik",
+    name = "soneshka",
+    comm = "milk"
+  },
+  {
+    location = "6972",
+    village = "paavik",
+    name = "varkasha",
+    comm = "poultry"
+  },
+  {
+    location = "6972",
+    village = "paavik",
+    name = "varkasha",
+    comm = "fish"
+  },
+  {
+    location = "6972",
+    village = "paavik",
+    name = "varkasha",
+    comm = "fruit"
+  },
+  {
+    location = "3820",
+    village = "delport",
+    name = "geraldine",
+    comm = "gems"
+  },
+  {
+    location = "6972",
+    village = "paavik",
+    name = "varkasha",
+    comm = "vegetable"
+  },
+  {
+    location = "6931",
+    village = "paavik",
+    name = "nikolai",
+    comm = "vegetable"
+  },
+  {
+    location = "6890",
+    village = "shanthmark",
+    name = "morachi",
+    comm = "wood"
+  },
+  {
+    location = "6890",
+    village = "shanthmark",
+    name = "morachi",
+    comm = "coal"
+  },
+  {
+    location = "6890",
+    village = "shanthmark",
+    name = "morachi",
+    comm = "iron"
+  },
+  {
+    location = "6886",
+    village = "shanthmark",
+    name = "gazali",
+    comm = "leather"
+  },
+  {
+    location = "6872",
+    village = "shanthmark",
+    name = "bikita",
+    comm = "cloth"
+  },
+  {
+    location = "6892",
+    village = "shanthmark",
+    name = "ujana",
+    comm = "gems"
+  },
+  {
+    location = "6892",
+    village = "shanthmark",
+    name = "ujana",
+    comm = "gold"
+  },
+  {
+    location = "6892",
+    village = "shanthmark",
+    name = "ujana",
+    comm = "silver"
+  },
+  {
+    location = "6892",
+    village = "shanthmark",
+    name = "ujana",
+    comm = "platinum"
+  },
+  {
+    location = "6868",
+    village = "shanthmark",
+    name = "kojo",
+    comm = "meat"
+  },
+  {
+    location = "6868",
+    village = "shanthmark",
+    name = "kojo",
+    comm = "poultry"
+  },
+  {
+    location = "6868",
+    village = "shanthmark",
+    name = "kojo",
+    comm = "fish"
+  },
+  {
+    location = "6868",
+    village = "shanthmark",
+    name = "kojo",
+    comm = "fruit"
+  },
+  {
+    location = "6868",
+    village = "shanthmark",
+    name = "kojo",
+    comm = "vegetable"
+  },
+  {
+    location = "6855",
+    village = "shanthmark",
+    name = "paka",
+    comm = "milk"
+  },
+  {
+    location = "17047",
+    village = "rikenfriez",
+    name = "gilna",
+    comm = "leather"
+  },
+  {
+    location = "17045",
+    village = "rikenfriez",
+    name = "wapan",
+    comm = "coal"
+  },
+  {
+    location = "17045",
+    village = "rikenfriez",
+    name = "wapan",
+    comm = "iron"
+  },
+  {
+    location = "17046",
+    village = "rikenfriez",
+    name = "kaamo",
+    comm = "cloth"
+  },
+  {
+    location = "17046",
+    village = "rikenfriez",
+    name = "kaamo",
+    comm = "rope"
+  },
+  {
+    location = "17046",
+    village = "rikenfriez",
+    name = "kaamo",
+    comm = "gold"
+  },
+  {
+    location = "17046",
+    village = "rikenfriez",
+    name = "kaamo",
+    comm = "platinum"
+  },
+  {
+    location = "17046",
+    village = "rikenfriez",
+    name = "kaamo",
+    comm = "silver"
+  },
+  {
+    location = "17046",
+    village = "rikenfriez",
+    name = "kaamo",
+    comm = "marble"
+  },
+  {
+    location = "17044",
+    village = "rikenfriez",
+    name = "hrovosh",
+    comm = "silk"
+  },
+  {
+    location = "17034",
+    village = "rikenfriez",
+    name = "ahhuma",
+    comm = "fish"
+  },
+  {
+    location = "17041",
+    village = "rikenfriez",
+    name = "puno",
+    comm = "grain"
+  },
+  {
+    location = "17041",
+    village = "rikenfriez",
+    name = "puno",
+    comm = "vegetable"
+  },
+  {
+    location = "17041",
+    village = "rikenfriez",
+    name = "puno",
+    comm = "meat"
+  },
+  {
+    location = "17041",
+    village = "rikenfriez",
+    name = "puno",
+    comm = "poultry"
+  },
+  {
+    location = "17041",
+    village = "rikenfriez",
+    name = "puno",
+    comm = "eggs"
+  },
+  {
+    location = "17043",
+    village = "rikenfriez",
+    name = "kootah",
+    comm = "wood"
+  },
+  {
+    location = "4062",
+    village = "angkrag",
+    name = "omar",
+    comm = "coal"
+  },
+  {
+    location = "4073",
+    village = "angkrag",
+    name = "aziza",
+    comm = "platinum"
+  },
+  {
+    location = "4081",
+    village = "angkrag",
+    name = "selima",
+    comm = "gold"
+  },
+  {
+    location = "4029",
+    village = "angkrag",
+    name = "magda",
+    comm = "gems"
+  },
+  {
+    location = "4029",
+    village = "angkrag",
+    name = "magda",
+    comm = "marble"
+  },
+  {
+    location = "4029",
+    village = "angkrag",
+    name = "magda",
+    comm = "silk"
+  },
+  {
+    location = "4029",
+    village = "angkrag",
+    name = "magda",
+    comm = "rope"
+  },
+  {
+    location = "4056",
+    village = "angkrag",
+    name = "anwar",
+    comm = "silver"
+  },
+  {
+    location = "4095",
+    village = "angkrag",
+    name = "kareem",
+    comm = "marble"
+  },
+  {
+    location = "4031",
+    village = "angkrag",
+    name = "vrink",
+    comm = "leather"
+  },
+  {
+    location = "4031",
+    village = "angkrag",
+    name = "vrink",
+    comm = "meat"
+  },
+  {
+    location = "4031",
+    village = "angkrag",
+    name = "vrink",
+    comm = "poultry"
+  },
+  {
+    location = "4089",
+    village = "angkrag",
+    name = "yasir",
+    comm = "iron"
+  },
+  {
+    location = "4050*",
+    village = "angkrag",
+    name = "vagnar",
+    comm = "steel"
+  },
+  {
+    location = "18568",
+    village = "ptoma",
+    name = "kaniun",
+    comm = "steel"
+  },
+  {
+    location = "18544",
+    village = "ptoma",
+    name = "sethunoiris",
+    comm = "silver"
+  },
+  {
+    location = "18845",
+    village = "ptoma",
+    name = "khemun",
+    comm = "gold"
+  },
+  {
+    location = "18519",
+    village = "ptoma",
+    name = "xakes",
+    comm = "platinum"
+  },
+  {
+    location = "18507",
+    village = "ptoma",
+    name = "nashast",
+    comm = "marble"
+  },
+  {
+    location = "18505",
+    village = "ptoma",
+    name = "khekhem",
+    comm = "iron"
+  },
+  {
+    location = "18330",
+    village = "ptoma",
+    name = "mosen",
+    comm = "coal"
+  },
+  {
+    location = "18716",
+    village = "ptoma",
+    name = "baolat",
+    comm = "grain"
+  },
+  {
+    location = "18716",
+    village = "ptoma",
+    name = "baolat",
+    comm = "fruit"
+  },
+  {
+    location = "18716",
+    village = "ptoma",
+    name = "baolat",
+    comm = "vegetable"
+  },
+  {
+    location = "18284",
+    village = "ptoma",
+    name = "setheti",
+    comm = "gems"
+  },
+  {
+    location = "18284",
+    village = "ptoma",
+    name = "setheti",
+    comm = "silk"
+  },
+  {
+    location = "18284",
+    village = "ptoma",
+    name = "setheti",
+    comm = "rope"
+  },
+  {
+    location = "20776",
+    village = "talthos",
+    name = "kluathic",
+    comm = "gems"
+  },
+  {
+    location = "20703",
+    village = "talthos",
+    name = "anein",
+    comm = "coal"
+  },
+  {
+    location = "20703",
+    village = "talthos",
+    name = "anein",
+    comm = "silver"
+  },
+  {
+    location = "20703",
+    village = "talthos",
+    name = "anein",
+    comm = "gold"
+  },
+  {
+    location = "20703",
+    village = "talthos",
+    name = "anein",
+    comm = "platinum"
+  },
+  {
+    location = "20703",
+    village = "talthos",
+    name = "anein",
+    comm = "marble"
+  },
+  {
+    location = "20703",
+    village = "talthos",
+    name = "anein",
+    comm = "cloth"
+  },
+  {
+    location = "20894",
+    village = "talthos",
+    name = "eleeha",
+    comm = "grain"
+  },
+  {
+    location = "20894",
+    village = "talthos",
+    name = "eleeha",
+    comm = "fruit"
+  },
+  {
+    location = "20894",
+    village = "talthos",
+    name = "eleeha",
+    comm = "vegetable"
+  },
+  {
+    location = "20900",
+    village = "talthos",
+    name = "obraxan",
+    comm = "wood"
+  },
+  {
+    location = "20900",
+    village = "talthos",
+    name = "obraxan",
+    comm = "silk"
+  },
+  {
+    location = "20900",
+    village = "talthos",
+    name = "obraxan",
+    comm = "rope"
+  }
+}</script>
+				<eventHandlerList />
+			</Script>
+		</ScriptGroup>
+	</ScriptPackage>
+</MudletPackage>

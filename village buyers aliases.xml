@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MudletPackage>
+<MudletPackage version="1.001">
+	<AliasPackage>
+		<AliasGroup isActive="yes" isFolder="yes">
+			<name>village buyers</name>
+			<script></script>
+			<command></command>
+			<packageName></packageName>
+			<regex></regex>
+			<Alias isActive="yes" isFolder="no">
+				<name>buyers help</name>
+				<script>cecho("\n_____________________________________________________________________")
+cecho("\n")
+cecho("\nWELCOME TO VILLAGE BUYERS!")
+cecho("\n")
+cecho("\nThis tool is designed to help you get to buyers of commodities in")
+cecho("\nvillages. It's easy to use:")
+cecho("\n")
+cecho("\nBUYERS VILLAGE &lt;village&gt;      This pulls up a list of all buyers from")
+cecho("\n                              a single village.")
+cecho("\n                                 ex. BUYERS VILLAGE ROCKHOLM")
+cecho("\n")
+cecho("\nBUYERS COMM &lt;commodity&gt;       This pulls up a list of buyers from all")
+cecho("\n                              villages.")
+cecho("\n                                 ex. BUYERS COMM GEMS")
+cecho("\n")
+cecho("\nYou can also use both variables at once to pull up a specific buyer.")
+cecho("\n   ex. BUYERS VILLAGE SHANTHMARK COMM CLOTH")
+cecho("\n       BUYERS COMM ROPE VILLAGE DELPORT")
+cecho("\n")
+cecho("\nBUYERS COMMS                  Pull up a list of all commodities.")
+cecho("\nBUYERS VILLAGES               Pull up a list of all villages.")
+cecho("\n_____________________________________________________________________")
+</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^buyers help$</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>buyers comms</name>
+				<script>cecho("\n_____________________________________________________________________")
+cecho("\n")
+cecho("\nCOMMODITIES:")
+cecho("\n")
+cecho("\n          steel            eggs                   wood")
+cecho("\n          iron             vegetables             leather")
+cecho("\n          coal             fruit                  platinum")
+cecho("\n          cloth            poultry                gold")
+cecho("\n          rope             fish                   gems")
+cecho("\n          silver           milk                   marble")
+cecho("\n          grain            silk                   meat")
+cecho("\n_____________________________________________________________________")
+
+</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^buyers (comms|commodities)$</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>buyers villages</name>
+				<script>cecho("\n_____________________________________________________________________")
+cecho("\n")
+cecho("\nVILLAGES:")
+cecho("\n")
+cecho("\n          Stewartsville                             Delport")
+cecho("\n          Estelbar                                   Acknor")
+cecho("\n          Shanthmark                                 Paavik")
+cecho("\n          Rockholm                                Southgard")
+cecho("\n          Angkrag                                  Dairuchi")
+cecho("\n          Talthos                                Rikenfriez")
+cecho("\n          Ixthiaxa                                    Ptoma")
+cecho("\n_____________________________________________________________________")
+</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^buyers villages$</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>village buyers (2 variables)</name>
+				<script>village_category = matches[2]
+village_variable = matches[3]
+
+cecho("\n_____________________________________________________________________")
+cecho("\n                |                 |                 |                ")
+cecho("\nDENIZEN         | VILLAGE         | COMMODITY       | LOCATION       ")
+for k,v in pairs(village_buyers) do
+  if v[village_category] == village_variable then
+    vb_name = tostring(village_buyers[k]["name"]):title()
+    vb_village = tostring(village_buyers[k]["village"]):title()
+    vb_comm = tostring(village_buyers[k]["comm"])
+    vb_loc = tostring(village_buyers[k]["location"])
+    cecho("\n" .. vb_name:padright(15) .. " | " .. vb_village:padright(15) .. " | " .. vb_comm:padright(15) .. " | ")
+    cechoLink(vb_loc, [[clearCmdLine() appendCmdLine("path track ]] .. vb_loc .. [[")]], "PATH GO to " .. vb_name:title() .. " (" .. vb_comm .. ")")
+  end
+end
+cecho("\n________________|_________________|_________________|________________")</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^buyers (\w+) (\w+)$</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>village buyers 4 variables</name>
+				<script>village_category = matches[2]
+village_variable = matches[3]
+village_category2 = matches[4]
+village_variable2 = matches[5]
+
+cecho("\n_____________________________________________________________________")
+cecho("\n                |                 |                 |                ")
+cecho("\nDENIZEN         | VILLAGE         | COMMODITY       | LOCATION       ")
+for k,v in pairs(village_buyers) do
+  if v[village_category] == village_variable and v[village_category2] == village_variable2 then
+    vb_name = tostring(village_buyers[k]["name"]):title()
+    vb_village = tostring(village_buyers[k]["village"]):title()
+    vb_comm = tostring(village_buyers[k]["comm"])
+    vb_loc = tostring(village_buyers[k]["location"])
+    cecho("\n" .. vb_name:padright(15) .. " | " .. vb_village:padright(15) .. " | " .. vb_comm:padright(15) .. " | ")
+    cechoLink(vb_loc, [[clearCmdLine() appendCmdLine("path track ]] .. vb_loc .. [[")]], "PATH GO to " .. vb_name:title() .. " (" .. vb_comm .. ")")
+  end
+end
+cecho("\n________________|_________________|_________________|________________")</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^buyers (\w+) (\w+) (\w+) (\w+)$</regex>
+			</Alias>
+		</AliasGroup>
+	</AliasPackage>
+</MudletPackage>
